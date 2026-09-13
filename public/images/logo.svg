@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="40" viewBox="0 0 240 40" fill="none">
+  <rect width="240" height="40" rx="6" fill="#0f172a"/>
+  <g transform="translate(10,6)">
+    <circle cx="14" cy="14" r="12" fill="#7c3aed" />
+    <text x="36" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Arial" font-size="14" font-weight="700">GTA6 Store</text>
+  </g>
+</svg>

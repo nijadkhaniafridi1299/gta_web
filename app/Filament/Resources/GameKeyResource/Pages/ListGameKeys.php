@@ -1,0 +1,1 @@
+<?php namespace App\Filament\Resources\GameKeyResource\Pages; use App\Filament\Resources\GameKeyResource; use Filament\Resources\Pages\ListRecords; class ListGameKeys extends ListRecords {protected static string $resource=GameKeyResource::class;}

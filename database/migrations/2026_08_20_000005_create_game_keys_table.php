@@ -1,0 +1,3 @@
+<?php
+use Illuminate\Database\Migrations\Migration; use Illuminate\Database\Schema\Blueprint; use Illuminate\Support\Facades\Schema;
+return new class extends Migration {public function up():void{Schema::create('game_keys',function(Blueprint $t){$t->id();$t->foreignId('product_id')->constrained()->cascadeOnDelete();$t->text('key');$t->enum('status',['available','reserved','sold','refunded'])->default('available')->index();$t->foreignId('order_id')->nullable()->constrained()->nullOnDelete();$t->timestamp('sold_at')->nullable();$t->timestamps();});}public function down():void{Schema::dropIfExists('game_keys');}};

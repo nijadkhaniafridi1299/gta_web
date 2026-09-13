@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /checkout
+Disallow: /orders
+Disallow: /admin
+Disallow: /crypto/pending/
+Disallow: /crypto/verify/
+Disallow: /crypto/status
+
+Sitemap: http://localhost:8000/sitemap.xml
